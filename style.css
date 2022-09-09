@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.to_do_list {
+    background-color: #0086b3;
+    text-align: center;
+   display: inline-block;
+   margin-left:25%;
+   margin-right: 25%;
+   margin-top: 3%;
+   width: 50%;
+   padding-top: 6%;
+   padding-bottom: 6%;
+   border-radius:35%;
+   font-size:155%;
+   
+}
+.to_do_list ol li {
+    font-family: 'Akaya Kanadaka';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; 
+}
+
+.to_do_list .completed {
+    text-decoration: line-through;
+    color: rgb(255, 251, 251);
+}
+
+.to_do_list h1 {
+    font-family: 'Atma';
+    
+}
+.to_do_list label,p{
+    font-family: 'Akaya Kanadaka';
+}
+.to_do_list form {
+    display:inline-block;
+}
+
+.to_do_list button {
+    font-family: 'Atma';
+    background-color:#88b7ff;
+    border-radius: 20px;
+    padding: 2%;
+}
+.to_do_list nav:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+nav a{
+    margin-top:1% ;
+   border: solid;
+    font-family: 'Atma';
+    background-color:#88b7ff;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 1%;
+    text-decoration:none;
+    color:#000000;
+
+}
+.to_do_list .b:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
